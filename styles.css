@@ -1,3 +1,33 @@
-body {
-  background: orange;
+.container{
+width:800px
+
+}
+
+
+.topbox {
+width:100%;
+height: 100px;
+background-color: blueviolet; 
+}
+.left-box {
+  width : 20%; 
+  height : 400px;
+  background-color: yellowgreen;
+  display:inline-block;
+  vertical-align: top;
+  /* float : left; */
+}
+.right-box {
+  width : 80%; 
+  height : 400px;
+  display:inline-block;
+  /* float : left; */
+  background-color: aqua;
+}
+
+.footer{
+width:100%;
+height: 100px;
+background-color: thistle;
+/* clear:both; */
 }
